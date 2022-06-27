@@ -1,7 +1,8 @@
 import Head from "next/head"
 import styles from "../styles/Home.module.css"
-// import ManualHeader from "../components/ManualHeader.js"
-import Header from "../components/Header.js"
+// import ManualHeader from "../components/ManualHeader"
+import Header from "../components/Header"
+import LotteryEntrance from "../components/LotteryEntrance"
 
 export default function Home() {
     return (
@@ -13,8 +14,7 @@ export default function Home() {
             </Head>
             {/* <ManualHeader /> */}
             <Header />
-            {/* header / connect button / nav bar */}
-            Hello!
+            <LotteryEntrance />
         </div>
     )
 }
